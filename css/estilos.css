@@ -73,7 +73,16 @@ border: 2px solid grey;
 	border: none;
 }
 /*CSS HEADER*/
-
+header > div{
+	float: left;
+	width: 10.67%;
+	padding: 3%;
+}
+header > div > img{
+	width: 100%;
+}
+.marginimg{
+	margin-top: 20%;
 }
 /*CSS MAIN*/
 
