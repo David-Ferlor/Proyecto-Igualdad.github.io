@@ -45,12 +45,13 @@ table {
 
 
 /*CSS General*/
+body{
+background-color: rgb(255, 253, 242);
+}
 #container{
 	width: 100%;
 	height: 100%;
-	background-color: rgb(255, 253, 242);
 }
-
 /*CSS NAV*/
 nav{
 	background-color:rgb(152, 128, 186);
@@ -62,6 +63,7 @@ nav{
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.54);
 	text-align: center;
 	min-height: 140px;
+	 
 }
 nav > div{
     padding: 0.5%;
@@ -85,11 +87,15 @@ header{
 	border: 1px solid black;
 	margin: 10%;
 	height: fit-content;
+	text-align: center;
+	background-color: rgb(114, 18, 20);
 }
 header > div{
-	float: left;
-	width: 20%;
-	padding: 3%;
+	display: inline-block;
+	width: 22%;
+	height: 450px;
+	margin: 1%;
+	text-align: center;
 }
 header > div > img{
 	width: 100%;
