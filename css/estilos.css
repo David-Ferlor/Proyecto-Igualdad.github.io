@@ -168,6 +168,11 @@ main > div{
 	border: 2px solid black;
 	position: relative;
 	align-content: left;
+	background-color: red;
+
+}
+main > div > div{
+	overflow-y: auto;
 }
 main > div > p{
 	border: black 2px solid;
@@ -176,6 +181,7 @@ main > div > p{
 	position: absolute;
 	top: -20px;
 	left:5%;
+	z-index: 1;
 }
 main > div > div > img{
 	width: 30%;
@@ -184,9 +190,11 @@ main > div > div > img{
 }
 main > div > div > p{
 	font-size: 2vmin;
-	padding: 5%;
+	padding: 2%;
 	text-align: justify;
 	width: 55%;
 	float: left;
+	background-color: yellow;
+	margin: 1%;
 }
 /*CSS FOOTER*/
