@@ -206,7 +206,6 @@ nav > a > div > img {
     border: none;
 }
 /*CSS HEADER*/
-<<<<<<< HEAD
 header{
 	overflow-y: auto;
 	clear: both;
@@ -236,37 +235,6 @@ header > div > a > p{
 }
 header > div > a{
 	color: black;
-=======
-header {
-    overflow-y: auto;
-    clear: both;
-    border: 1px solid black;
-    margin: 3%;
-    height: fit-content;
-    background-color: bisque;
-}
-header > div {
-    /*display: inline-block;*/
-    float: left;
-    width: 22%;
-    /*height: 450px;*/
-    margin: 1.5%;
-    text-align: center;
-    background-color: white;
-    border: outset 5px rgb(133, 0, 0);
-}
-header > div > a > img {
-    max-width: 1024px;
-    min-height: 294.8px;
-    width: 100%;
-}
-header > div > a > p {
-    font-size: 2vmin;
-    font-family: Arial, Helvetica, sans-serif;
-}
-header > div > a {
-    color: black;
->>>>>>> eed31254d552d6eae14690b4dc538266dbd02056
 }
 /*CSS MAIN*/
 main {
@@ -282,7 +250,6 @@ main > div {
     background-color: red;
 
 }
-<<<<<<< HEAD
 main > div > div{
 	overflow-y: auto;
 }
@@ -328,32 +295,3 @@ main > div > div > p{
 		padding-bottom: 1%;
 		max-height: 100px;
 	}
-=======
-main > div > div {
-    overflow-y: auto;
-}
-main > div > p {
-    border: black 2px solid;
-    background-color: aqua;
-    font-size: 4vmin;
-    position: absolute;
-    top: -20px;
-    left: 5%;
-    z-index: 1;
-}
-main > div > div > img {
-    width: 30%;
-    padding: 1%;
-    float: left;
-}
-main > div > div > p {
-    font-size: 2vmin;
-    padding: 2%;
-    text-align: left;
-    width: 55%;
-    float: left;
-    background-color: yellow;
-    margin: 1%;
-}
-/*CSS FOOTER*/
->>>>>>> eed31254d552d6eae14690b4dc538266dbd02056
