@@ -135,10 +135,8 @@ header{
 	background-color: bisque;
 }
 header > div{
-	/*display: inline-block;*/
 	float: left;
 	width: 22%;
-	/*height: 450px;*/
 	margin: 1.5%;
 	text-align: center;
 	background-color: white;
@@ -148,6 +146,7 @@ header > div > a > img{
 	max-width: 1024px;
 	min-height: 294.8px;
 	width: 100%;
+	height: auto;
 	/*height: 90%;*/
 }
 header > div > a > p{
@@ -198,3 +197,21 @@ main > div > div > p{
 	margin: 1%;
 }
 /*CSS FOOTER*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	header > div{
+		float: left;
+		width: 45%;
+		margin: 1.5%;
+		height: fit-content;
+		text-align: center;
+		background-color: white;
+		border: outset 5px rgb(133, 0, 0);
+	}
+	header > div > a > img{
+		width: 100%;
+		height: auto;
+		padding-bottom: 1%;
+		max-height: 100px;
+	}
