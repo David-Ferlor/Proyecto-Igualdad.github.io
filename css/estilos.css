@@ -195,16 +195,14 @@ nav {
     top: 0;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.54);
     text-align: center;
-    min-height: 140px;
     vertical-align: center;
-    display: none;
     z-index: 50;
 }
 nav > a > div {
     padding: 0.5%;
     display: inline-block;
     width: 6%;
-    height: 70%;
+    height: 100%;
 }
 nav > a > div > img {
     width: 100%;
@@ -317,7 +315,10 @@ main > div > div > p {
     header > div > a > p {
         font-size: 75%;
     }
-}
     main>div>img{
-        height:;
+        height: 40%;
     }
+    nav>div>a{
+        display: none;
+    }
+}
