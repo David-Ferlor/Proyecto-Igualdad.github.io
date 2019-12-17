@@ -231,6 +231,8 @@ header > div {
     border: outset 5px rgb(133, 0, 0);
 }
 header > div > a > img {
+    max-width: 1024px;
+    min-height: 170px;
     width: 100%;
     opacity: 100%;
 }
