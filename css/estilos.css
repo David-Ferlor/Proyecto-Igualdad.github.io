@@ -315,6 +315,6 @@ main > div > div > p {
         max-height: 100px;
     }
     header > div > a > p {
-        font-size: 200%;
+        font-size: 75%;
     }
 }
