@@ -187,6 +187,7 @@ body {
 }
 /*CSS ASIDE*/
 nav > aside {
+    position: relative;
     display: none;
     width: 100%;
 }
@@ -243,17 +244,16 @@ nav > aside {
 }
 #menu {
     position: absolute;
-    width: 100%;
-    margin: -100px 0 0 -50px;
+    width: 75%;
+    margin: -110px 0 0 -60px;
     padding: 125px 50px 50px;
     background: #ededed;
-    list-style-type: none;
     transform-origin: 0 0;
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 #menu li > img  {
-    width: 15%;
+    width: 40%;
     border-radius: 100%;
     border: 0.3vmin solid grey;
     padding: 1%;
@@ -262,8 +262,10 @@ nav > aside {
     float: left;
 }
 #menu li > .home {
-margin-left: 37.5%;
-margin-right: 37.5%;
+width: 20%;
+position: absolute;
+right: -1%;
+top: 10.3%;
 border: none;
 }
 #menuToggle input:checked ~ ul {
