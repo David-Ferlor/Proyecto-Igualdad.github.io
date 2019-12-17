@@ -314,3 +314,7 @@ main > div > div > p {
         padding-bottom: 1%;
         max-height: 100px;
     }
+    header > div > a > p {
+        font-size: 200%;
+    }
+}
