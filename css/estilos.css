@@ -221,22 +221,17 @@ header {
     clear: both;
     border: 1px solid black;
     margin: 3%;
-    height: fit-content;
     background-color: bisque;
 }
 header > div {
     float: left;
     width: 22%;
     margin: 1.5%;
-    text-align: center;
     background-color: white;
     border: outset 5px rgb(133, 0, 0);
 }
 header > div > a > img {
-    max-width: 1024px;
-    min-height: 294.8px;
     width: 100%;
-    height: auto;
     opacity: 100%;
 }
 header > div > a > img:hover {
@@ -301,7 +296,6 @@ main > div > div > p {
     header > div {
         float: left;
         width: 45%;
-        height: auto;
         margin: 1.5%;
         height: fit-content;
         background-color: white;
