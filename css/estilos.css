@@ -232,7 +232,7 @@ header > div {
 }
 header > div > a > img {
     max-width: 1024px;
-    min-height: 245px;
+    min-height: 200px;
     width: 100%;
     opacity: 100%;
 }
