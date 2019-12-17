@@ -301,9 +301,9 @@ main > div > div > p {
     header > div {
         float: left;
         width: 45%;
+        height: auto;
         margin: 1.5%;
         height: fit-content;
-        text-align: center;
         background-color: white;
         border: outset 5px rgb(133, 0, 0);
     }
