@@ -801,6 +801,24 @@ main > div > div > p {
     margin: 1%;
     border: outset 5px rgb(133, 0, 0);
 }
+/*CSS FOOTER*/
+footer{
+    background-color: black;
+    color: rgb(172, 172, 172);
+    vertical-align: auto;
+}
+footer>ul{
+    display: inline-block;
+    margin: 3%;
+}
+footer>ul>li{
+    margin-left: 5%;
+    list-style: disc;
+}
+footer>ul>li>ul>li{
+    list-style: circle;
+    margin-left: 5%;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #container > a > img {
