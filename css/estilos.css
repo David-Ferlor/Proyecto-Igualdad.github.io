@@ -146,7 +146,7 @@ body {
     width: 6%;
     z-index: 999;
 }
-a{
+a {
     color: bisque;
 }
 /*CSS LOGO*/
@@ -187,11 +187,6 @@ a{
     display: inline-block;
 }
 /*CSS ASIDE*/
-nav > aside {
-    position: relative;
-    display: none;
-    width: 100%;
-}
 #menuToggle {
     display: block;
     position: relative;
@@ -253,7 +248,7 @@ nav > aside {
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
-#menu li > img  {
+#menu li > a > img {
     width: 40%;
     border-radius: 100%;
     border: 0.3vmin solid grey;
@@ -262,12 +257,12 @@ nav > aside {
     margin-top: 1%;
     float: left;
 }
-#menu li > .home {
-width: 20%;
-position: absolute;
-right: -1%;
-top: 10.3%;
-border: none;
+#menu li > a > .home {
+    width: 20%;
+    position: absolute;
+    right: -1%;
+    top: 10.3%;
+    border: none;
 }
 #menuToggle input:checked ~ ul {
     transform: none;
@@ -391,12 +386,12 @@ main > div > div > p {
         width: 6%;
         z-index: 999;
     }
-    nav > div > a{
+    nav > div > a {
         display: none;
         position: sticky;
         top: 0;
     }
-    nav > aside{
+    nav > aside {
         display: block;
     }
     header > div {
@@ -416,13 +411,13 @@ main > div > div > p {
     header > div > a > p {
         font-size: 75%;
     }
-    main > div > img{
+    main > div > img {
         height: 40%;
     }
-    main > div{
+    main > div {
         margin-top: 8%;
     }
-    main > div > div > :nth-child(3){
+    main > div > div > :nth-child(3) {
         clear: both;
     }
     main > div > div > :nth-child(2) {
@@ -431,13 +426,13 @@ main > div > div > p {
 }
 /* Big devices (big screens) */
 @media only screen and (min-width: 1600px) {
-    #container>p{
+    #container > p {
         font-size: 500%;
     }
 }
 /* Extra Big devices (big screens) */
 @media only screen and (min-width: 1800px) {
-    #container>p{
+    #container > p {
         font-size: 700%;
     }
 }
