@@ -384,7 +384,31 @@ main > div > div > p {
     border: outset 5px rgb(133, 0, 0);
 }
 /*CSS FOOTER*/
+footer{
+    background-color: black;
+    color: white;
+    padding: 5%;
 
+}
+footer li{
+    margin-left: 1%;
+    list-style: circle;
+}
+footer>div{
+    position: relative;
+    top: -20px;
+    left: -20px;
+    width: 100%;
+    display: inline-block;
+}
+#anidada{
+    list-style: disc;
+}
+#instituto{
+    position: relative;
+    top: -70px;
+    left: 250px;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     header > div {
