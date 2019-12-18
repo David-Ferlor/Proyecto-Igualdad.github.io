@@ -361,7 +361,7 @@ main > div > div {
 main > div > p {
     padding: 5px;
     border: black 2px solid;
-    background-color: aqua;
+    background-color: rgb(152, 128, 186);
     font-size: 4vmin;
     position: absolute;
     top: -20px;
@@ -379,7 +379,7 @@ main > div > div > p {
     text-align: justify;
     width: 65%;
     float: left;
-    background-color: grey;
+    background-color: rgb(184, 184, 184);
     margin: 1%;
     border: outset 5px rgb(133, 0, 0);
 }
