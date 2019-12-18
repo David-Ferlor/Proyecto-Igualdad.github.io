@@ -420,3 +420,15 @@ main > div > div > p {
         z-index: 999;
     }
 }
+/* Big devices (big screens) */
+@media only screen and (min-width: 1600px) {
+    #container>p{
+        font-size: 500%;
+    }
+}
+/* Extra Big devices (big screens) */
+@media only screen and (min-width: 1800px) {
+    #container>p{
+        font-size: 700%;
+    }
+}
