@@ -422,6 +422,9 @@ main > div > div > p {
         width: 6%;
         z-index: 999;
     }
+    main > div{
+        margin-top: 8%;
+    }
     main > div > div > :nth-child(3){
         clear: both;
     }
