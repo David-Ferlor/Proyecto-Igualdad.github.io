@@ -146,7 +146,9 @@ body {
     position: fixed;
     width: 6%;
     z-index: 999;
-
+}
+a{
+    color: bisque;
 }
 /*CSS LOGO*/
 #container > p {
@@ -350,7 +352,7 @@ main > div {
     border: 2px solid black;
     position: relative;
     align-content: left;
-    background-color: red;
+    background-color: bisque;
 
 }
 main > div > div {
@@ -377,8 +379,9 @@ main > div > div > p {
     text-align: justify;
     width: 65%;
     float: left;
-    background-color: yellow;
+    background-color: grey;
     margin: 1%;
+    border: outset 5px rgb(133, 0, 0);
 }
 /*CSS FOOTER*/
 
@@ -418,6 +421,12 @@ main > div > div > p {
         position: fixed;
         width: 6%;
         z-index: 999;
+    }
+    main > div > div > :nth-child(3){
+        clear: both;
+    }
+    main > div > div > :nth-child(2) {
+        margin-top: 2%;
     }
 }
 /* Big devices (big screens) */
