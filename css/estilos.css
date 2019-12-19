@@ -802,20 +802,24 @@ main > div > div > p {
     border: outset 5px rgb(133, 0, 0);
 }
 /*CSS FOOTER*/
+.nopunto{
+    list-style: none;
+}
 footer{
     background-color: black;
     color: rgb(172, 172, 172);
     vertical-align: auto;
+    margin-top: 4%;
 }
-footer>ul{
+footer > ul{
     display: inline-block;
     margin: 3%;
 }
-footer>ul>li{
+footer > ul > li{
     margin-left: 5%;
     list-style: disc;
 }
-footer>ul>li>ul>li{
+footer > ul > li > ul > li{
     list-style: circle;
     margin-left: 5%;
 }
