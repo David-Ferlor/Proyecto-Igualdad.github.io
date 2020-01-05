@@ -56,7 +56,7 @@ a {
 #home {
     overflow-y:auto;
     }
-    #home > p {
+#home > p {
     font-size:200%;
     color:#d64f7c;
     margin-top:.8%;
@@ -111,7 +111,7 @@ a {
     float:left;
     padding:1%;
     }
-#menu li > a > .home {
+#menu li > a > .class_home {
     width:20%;
     position:absolute;
     right:-1%;
@@ -182,7 +182,7 @@ nav > aside {
 #menu {
     position:absolute;
     width:75%;
-    background:#ededed;
+    background: rgb(152, 128, 186);
     transform-origin:0 0;
     transform:translate(-100%,0);
     transition:transform .5s cubic-bezier(0.77,0.2,0.05,1.0);
@@ -198,7 +198,7 @@ nav > aside {
     float:left;
     padding:1%;
     }
-#menu li > .home {
+#menu li > .class_home {
     width:20%;
     position:absolute;
     right:-1%;
