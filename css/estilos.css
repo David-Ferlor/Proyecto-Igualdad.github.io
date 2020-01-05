@@ -161,6 +161,9 @@ nav > aside {
     transform-origin:4px 0;
     transition:transform .5s cubic-bezier(0.77,0.2,0.05,1.0), background .5s cubic-bezier(0.77,0.2,0.05,1.0), opacity .55s ease;
     }
+#menuToggle>:nth-child(4){
+    margin-bottom: 3%;
+}
 #menuToggle span:first-child {
     transform-origin:0 0;
     }
